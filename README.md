@@ -26,8 +26,13 @@
 3. Analyzed the top 5 positively and negatively correlated features with the target variable(Bankrupt?).
 4. Performed anomaly detection using IQR (interquartile range).
 5. Trained models with the top 20 important features from Feature Importance Method 1
-6. Deployed the best-performing Gradient Boosting Classifier (GBC) model using Streamlit.
+6. GBC worked best with 0.97 accuracy and 0.96 f1-score.
 7. Performed K-means clustering and trained models with it.
-8. The Decision Tree Classifier (DTC) performed the best, so, we deployed it using streamlit.
-9. compared all the models based on their accuracies and F1 scores.
+8. The Decision Tree Classifier (DTC) performed the best with 0.97 accuracy and 0.97 f1-score.
+9. Compared all the models based on their accuracies and f1-scores.
+
+10. ## Version 5:
+1. Used Principal Component Analysis (PCA) to select the top 10 features.
+2. We trained the models with these reduced features and achieved good results.
+3. Decision tree classifier worked best with 0.98 accuracy.
 
