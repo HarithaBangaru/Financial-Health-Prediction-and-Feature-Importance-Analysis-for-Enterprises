@@ -19,3 +19,15 @@
 6. Then, we considered features with a correlation > 0.7 (Feature Selection Method 2).
 7. This reduced the feature set to 51 features.
 8. Trained models with this reduced feature set and achieved good results.
+
+## Version 4:
+1. Added data visualization using Matplotlib and Seaborn.
+2. Conducted exploratory data analysis (EDA).
+3. Analyzed the top 5 positively and negatively correlated features with the target variable(Bankrupt?).
+4. Performed anomaly detection using IQR (interquartile range).
+5. Trained models with the top 20 important features from Feature Importance Method 1
+6. Deployed the best-performing Gradient Boosting Classifier (GBC) model using Streamlit.
+7. Performed K-means clustering and trained models with it.
+8. The Decision Tree Classifier (DTC) performed the best, so, we deployed it using streamlit.
+9. compared all the models based on their accuracies and F1 scores.
+
