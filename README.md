@@ -33,8 +33,30 @@
 10. Saved and deployed DTC model using Streamlit.
 11. Compared all the models based on their accuracies and f1-scores.
 
-12. ## Version 5:
+## Version 5:
 1. Used Principal Component Analysis (PCA) to select the top 10 features.
 2. We trained the models with these reduced features and achieved good results.
 3. Decision tree classifier worked best with 0.98 accuracy and 0.98 f1-score.
+
+## How to Use the Streamlit App
+
+Running the Streamlit app locally is straightforward. Follow these steps:
+
+1. **Clone this repository:**
+
+          git clone https://github.com/HarithBangaru/Financial-Health-Prediction-and-Feature-Importance-Analysis-for-Enterprises.git
+   
+          cd Financial-Health-Prediction-and-Feature-Importance-Analysis-for-Enterprises
+
+3. **Install the required Python packages:**
+ 
+           pip install -r requirements.txt
+
+4. **Run the Streamlit app:**
+
+            streamlit run app.py
+
+5. **Access the application:**
+
+      Open your web browser and navigate to http://localhost:8501 to start using the application.
 
