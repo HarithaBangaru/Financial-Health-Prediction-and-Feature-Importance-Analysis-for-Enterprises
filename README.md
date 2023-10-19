@@ -60,3 +60,26 @@ Running the Streamlit app locally is straightforward. Follow these steps:
 
       Open your web browser and navigate to http://localhost:8501 to start using the application.
 
+### Model Highlights
+
+#### Gradient Boosting Classifier
+
+- **Algorithm Used**: Gradient Boosting Classifier
+
+- **Model Accuracy**: Achieved high accuracy of 0.97 in Version 1.
+  
+- **Precision and Recall**: Initially faced challenges with low precision and recall due to class imbalance.
+  
+- **Class Imbalance Handling**: In Version 2, class imbalance was addressed using random oversampling (ROS).
+  
+- **Improved Metrics**: Achieved better evaluation metrics in Version 2, with improved precision and recall scores.
+  
+- **Feature Selection**: In Version 3 and Version 4, feature importance analysis was performed, and the top 20 important features were selected.
+  
+- **Top Features**: Notable features include 'Net worth/Assets,' 'Debt ratio %,' and 'Equity to Liability.'
+  
+- **Real-time Prediction**: The Gradient Boosting model was deployed using Streamlit for real-time financial health prediction through GBC.pkl file in Version 4.
+  
+
+For more details on model performance, please refer to - [Version 4 - Bankruptcy prediction](Bankruptcy%20prediction%20version4.ipynb) in this README.
+
