@@ -60,9 +60,9 @@ Running the Streamlit app locally is straightforward. Follow these steps:
 
       Open your web browser and navigate to http://localhost:8501 to start using the application.
 
-### Model Highlights
+## Model Highlights
 
-#### Gradient Boosting Classifier
+### Gradient Boosting Classifier
 
 - **Algorithm Used**: Gradient Boosting Classifier
 
@@ -81,5 +81,20 @@ Running the Streamlit app locally is straightforward. Follow these steps:
 - **Real-time Prediction**: The Gradient Boosting model was deployed using Streamlit for real-time financial health prediction through GBC.pkl file in Version 4.
   
 
-For more details on model performance, please refer to - [Version 4 - Bankruptcy prediction](Bankruptcy%20prediction%20version4.ipynb) in this README.
+### Decision Tree Classifier
+
+- **Algorithm Used**: Decision Tree Classifier
+  
+- **Model Accuracy**: Achieved high accuracy of 0.97 in Version 4
+  
+- **Features**: Utilized features such as 'Net worth/Assets,' 'Persistent EPS in the Last Four Seasons,' and 'Debt ratio %.'
+  
+- **IQR Anomaly Detection**: Employed IQR (Interquartile Range) for anomaly detection in data preprocessing.
+  
+- **Precision and Recall**: Demonstrated strong precision and recall scores.
+
+- **Real-time Prediction**: Deployed the Decision Tree model for real-time financial health prediction through DTC.pkl file in Version 4.
+
+For more details on model performance, please refer to - [Version 4](Bankruptcy%20prediction%20version4.ipynb) in this README.
+
 
